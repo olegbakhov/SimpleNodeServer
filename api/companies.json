@@ -1,0 +1,45 @@
+{
+    "companies": "Movie industry",
+    "location": "US",
+    "statusActive": true,
+    "members": [
+      {
+        "companyName": "Paramount Pictures",
+        "founded": 1912,
+        "founders": [
+            "William Wadsworth",
+            "Hodkinson",
+            "Adolph Zukor",
+            "Jesse L. Lasky"
+        ],
+        "website": "paramountpictures.com"
+      },
+      {
+        "companyName": "20th Century Studios",
+        "founded": 1935,
+        "founders": [
+            "Joseph M. Schenck",
+            "Darryl F. Zanuck",
+            "William Fox",
+            "Sidney Kent"
+        ],
+        "website": "20thcenturystudios.com"
+      },
+      {
+        "companyName": "Universal Pictures",
+        "founded": 1912,
+        "founders": [
+            "Carl Laemmle",
+            "Pat Powers",
+            "David Horsley",
+            "William Swanson",
+            "Mark Dintenfass",
+            "Charles Baumann",
+            "Robert H. Cochrane",
+            "Adam Kessel",
+            "Jules Brulatour"
+        ],
+        "website":"universalpictures.com"
+      }
+    ]
+  }

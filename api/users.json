@@ -1,0 +1,38 @@
+{
+    "users": "actors",
+    "homePlace": "US",
+    "date": 2022,
+    "statusActive": true,
+    "members": [
+      {
+        "name": "Arnold Schwarzenegger",
+        "age": 74,
+        "nickname": "Strong",
+        "roles": [
+          "Predator",
+          "Terminator",
+          "Commando"
+        ]
+      },
+      {
+        "name": "Sylvester Stallone",
+        "age": 75,
+        "nickname": "Rocky",
+        "roles": [
+          "First Blood",
+          "Cobra",
+          "Judge Dredd"
+        ]
+      },
+      {
+        "name": "Jean-Claude Van Damme",
+        "age": 61,
+        "nickname": "JCVD",
+        "roles": [
+          "Kickboxer",
+          "Double Impact",
+          "Universal Soldier"
+        ]
+      }
+    ]
+  }
