@@ -10,17 +10,6 @@ app.get('/', (req, res) => {
 
 })
 
-/*app.get('/api/users', (req, res) => {
-
-    res.send('Users')
-
-})
-app.get('/api/companies', (req, res) => {
-
-    res.send('Companies')
-
-})*/
-
 app.get('/api/users', (req, res) => {
     fs.readFile(__dirname + '/api/users' + ".json", 'utf8', function (err, data){
         var dataUsers = JSON.parse(data);
@@ -38,24 +27,7 @@ app.get('/api/companies', (req, res) => {
 });
 
 
-
-// app.use(express.static('public',{index:false, extensions:['json']}));
-// app.use(function (req, res) {
-//     console.log("req:", req);
-//     console.log("res:", res);
-//     // Optional 404 handler
-//     res.status(404);
-//     res.json({
-//         error: {
-//             code: 404
-//         }
-//     });
-// })
-
-
-
-
-const PORT = 3000
+const PORT = process.env.PORT || 3000;
 var server = app.listen(PORT, () => {
     var host = server.address().address
     var port = server.address().port
