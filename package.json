@@ -1,11 +1,12 @@
 {
-  "name": "sample_express server",
+  "name": "sample_express_server",
   "version": "1.0.0",
   "description": "API's sample project on Express",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "echo'Build executed'"
   },
   "keywords": [
     "api"
