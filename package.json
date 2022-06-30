@@ -1,10 +1,9 @@
 {
-  "name": "sample_express",
+  "name": "sample_express server",
   "version": "1.0.0",
-  "description": "API's sample project",
+  "description": "API's sample project on Express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
