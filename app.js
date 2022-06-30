@@ -35,8 +35,22 @@ app.get('/api/companies', (req, res) => {
         res.send(dataCompanies);
         //res.end(data);
     });
-});   
+});
 
+
+
+// app.use(express.static('public',{index:false, extensions:['json']}));
+// app.use(function (req, res) {
+//     console.log("req:", req);
+//     console.log("res:", res);
+//     // Optional 404 handler
+//     res.status(404);
+//     res.json({
+//         error: {
+//             code: 404
+//         }
+//     });
+// })
 
 
 
