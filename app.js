@@ -5,7 +5,7 @@ const fs = require('fs')
 
 
 app.get('/', (req, res) => {
-    res.send('Status: 200 OK')
+    res.send('Status: 200 OK(running)')
 })
 
 app.get('/api/users', (req, res) => {
