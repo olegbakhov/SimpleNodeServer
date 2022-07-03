@@ -4,9 +4,13 @@ const fs = require('fs')
 
 
 
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
     res.send('Status: 200 OK')
-})
+})*/
+
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
 
 app.get('/api/users', (req, res) => {
     fs.readFile(__dirname + '/api/users' + ".json", 'utf8', function (err, data){
