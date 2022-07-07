@@ -22,6 +22,13 @@ app.get('/api/companies', (req, res) => {
     });
 });
 
+class MyClass {
+callTheCallback(callback) {
+    callback();
+    }
+}
+module.exports = MyClass;
+
 
 const PORT = process.env.PORT || 3000;
 var server = app.listen(PORT, () => {
